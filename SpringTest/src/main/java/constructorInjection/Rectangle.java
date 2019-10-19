@@ -9,7 +9,7 @@ public class Rectangle implements Shape {
 
 	public Rectangle(int length1, int breadth1) {
 		this.length1 = length1;
-		this.breadth1 = breadt1h;
+		this.breadth1 = breadth1;
 	}
 
 
