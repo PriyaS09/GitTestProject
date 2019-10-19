@@ -2,14 +2,14 @@ package constructorInjection;
 
 public class Rectangle implements Shape {
 	
-	private int length;
-	private int breadth;
+	private int length1;
+	private int breadth1;
 	
 	
 
-	public Rectangle(int length, int breadth) {
-		this.length = length;
-		this.breadth = breadth;
+	public Rectangle(int length1, int breadth1) {
+		this.length1 = length1;
+		this.breadth1 = breadt1h;
 	}
 
 
@@ -17,7 +17,7 @@ public class Rectangle implements Shape {
 	@Override
 	public int calculateArea() {
 		// TODO Auto-generated method stub
-		return length*breadth;
+		return length1*breadth1;
 	}
 
 }
